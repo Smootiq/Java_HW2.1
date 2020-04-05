@@ -5,14 +5,16 @@
 
 ## Описание тестов
 На ПО IntelliJ IDEA Community, было создано базовое приложение, для тестирования работоспособности кода
-> <i> public class Main { <br>
-    public static void main(String[] args) { <br>
-        long amount = 10000; <br>
-        long bonus = amount / 20; { <br>
-        } <br>
-        System.out.println(bonus); <br>
-    } <br>
-} </i> <br>
+```
+public class Main {
+    public static void main(String[] args) {
+        long amount = 10000;
+        long bonus = amount / 20; {
+        }
+        System.out.println(bonus);
+    }
+}
+```
 
 Проводилось позитивное тестирование функционала выполнения заданной операции.
 
